@@ -10,7 +10,7 @@ from functools import partial, wraps
 import simpy
 
 
-RANDOM_SEED = 42
+RANDOM_SEED = 40
 NEW_CUSTOMERS = 10  # Total number of customers
 INTERVAL_CUSTOMERS = 10.0  # Generate new customers roughly every x seconds
 MIN_PATIENCE = 10  # Min. customer patience
